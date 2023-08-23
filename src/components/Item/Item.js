@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 const Item = ({id, name, img, price, stock}) => {
     return (
         <Card 
-        bg={'Danger'.toLowerCase()}
-        key={'Danger'}
-        text={'Danger'.toLowerCase() === 'light' ? 'dark' : 'white'}
+        bg={'Dark'.toLowerCase()}
+        key={'Dark'}
+        text={'Dark'.toLowerCase() === 'light' ? 'dark' : 'white'}
         className='cardItem'>
             <header className='header'>
                 <h2 className='title'>
@@ -27,7 +27,7 @@ const Item = ({id, name, img, price, stock}) => {
                 </p>
             </section>
             <footer className='itemFooter'>
-                <Button variant='secondary'>
+                <Button variant='primary'>
                     <Link to={`/item/${id}`} className='Option'>Ver Detalle</Link>
                 </Button>
             </footer>

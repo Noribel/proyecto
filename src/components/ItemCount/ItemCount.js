@@ -21,12 +21,12 @@ const ItemCount = ({ stock, inicio, agregado}) => {
     return (
         <div className='Contador'>
             <div className='Controles'>
-                <Button variant='secondary' onClick={quitar}>-</Button>
+                <Button variant='primary' onClick={quitar}>-</Button>
                 <h4 className='Numero'>{cantidad}</h4>
-                <Button variant='secondary'  onClick={agregar}>+</Button>
+                <Button variant='primary'  onClick={agregar}>+</Button>
             </div>
             <div>
-                <Button variant='secondary' onClick={() => agregado(cantidad)} disabled={!stock}>
+                <Button variant='primary' onClick={() => agregado(cantidad)} disabled={!stock}>
                     Agregar al carro
                 </Button>
             </div>

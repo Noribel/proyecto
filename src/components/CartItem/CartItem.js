@@ -9,9 +9,9 @@ const CartItem = ({id, name, img, price, quantity}) => {
     const { removeItem } = useContext(CartContext)
     return (
         <Card 
-        bg={'Danger'.toLowerCase()}
-        key={'Danger'}
-        text={'Danger'.toLowerCase() === 'light' ? 'dark' : 'white'}
+        bg={'Dark'.toLowerCase()}
+        key={'Dark'}
+        text={'Dark'.toLowerCase() === 'light' ? 'dark' : 'white'}
         className='cardItem'>
             <header className='header'>
                 <h2 className='title'>
@@ -30,7 +30,7 @@ const CartItem = ({id, name, img, price, quantity}) => {
                 </p>
             </section>
             <footer className='itemFooter'>
-                <Button variant="secondary" onClick={() => removeItem(id)}>
+                <Button variant="primary" onClick={() => removeItem(id)}>
                     <Link to={`/cart`} className='Option'>Eliminar</Link>
                 </Button>
             </footer>

@@ -23,9 +23,9 @@ const ItemDetail = ({id, name, img, category, details, price, stock}) => {
 
     return (
         <Card 
-        bg={'Danger'.toLowerCase()}
-        key={'Danger'}
-        text={'Danger'.toLowerCase() === 'light' ? 'dark' : 'white'}
+        bg={'Dark'.toLowerCase()}
+        key={'Dark'}
+        text={'Dark'.toLowerCase() === 'light' ? 'dark' : 'white'}
         className='cardItemDetail mb-2'>
             <header className='header'>
                 <h2 className='title'>
@@ -49,9 +49,9 @@ const ItemDetail = ({id, name, img, category, details, price, stock}) => {
             <footer className='itemFooter'>
                 {
                     cantidadClic > 0 ? (
-                        <Button variant='secondary'><Link to='/cart' className='Option'>Finalizar compra</Link></Button>
+                        <Button variant='primary'><Link to='/cart' className='Option'>Finalizar compra</Link></Button>
                     ) : (
-                        <ItemCount variant='secondary' inicio={1} stock={stock} agregado={handleOnAdd} />
+                        <ItemCount variant='primary' inicio={1} stock={stock} agregado={handleOnAdd} />
                     )
                 }
             </footer>
