@@ -1,11 +1,11 @@
 .Controles{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 17px;
 }
 .Contador{
-    margin-top: 20px;
+    margin-top: 22px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
 }
