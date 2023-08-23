@@ -1,0 +1,8 @@
+.Option{
+    text-decoration: none;
+}
+.ActiveOption{
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: #fff;
+}
