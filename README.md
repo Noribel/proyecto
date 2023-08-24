@@ -4,6 +4,6 @@ El proyecto presenta una página web donde se puede visualizar una tienda online
 
 Para conocer un poco más el proyecto, puede hacer click en los siguientes enlaces:
 
-Video()
+Video(https://www.youtube.com/watch?v=4LYQGyOL-Wo)
 
-Página en vercel()# Tienda-online-jsx
+Página en vercel(https://proyecto-blond.vercel.app/)
